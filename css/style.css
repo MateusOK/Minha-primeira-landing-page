@@ -1,0 +1,473 @@
+html
+{
+    scroll-behavior: smooth !important;
+    overflow-x: hidden;
+}
+
+#wrapper
+{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.cabecalho
+{
+    width: 100%;
+    height: 10%;
+    left: 0;
+    top: 0;
+    position: relative;
+}
+
+.rodape
+{
+    width: 100%;
+    height: 15%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color:green;
+}
+
+.logo
+{
+    width: 30%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: relative;
+}
+
+#logo
+{
+    width: 85px;
+    left: 5%;
+    top: 9% ;
+    position: relative;
+
+}
+
+#h1
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 11%;
+    left: 23%;
+    position: absolute;
+    color: black;
+}
+
+#renovavel
+{
+    width: 75px;
+    top: 18%;
+    left: 73%;
+    position: absolute;
+}
+
+#link-renovaveis
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    top: 25%;
+    left: 77%;
+    position:absolute;
+    color: black;
+}
+
+#naoRenovavel
+{
+    width: 70px;
+    top: 17%;
+    left: 50%;
+    position: absolute;
+}
+
+#link-naoRenovaveis
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    top: 20%;
+    left: 54%;
+    position: absolute;
+    color: black;
+}
+
+.inicio
+{
+    width: 100%;
+    height: 75%;
+    position: relative;
+}
+
+#img-inicial
+{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    border-radius: 10px;
+    top: 25%;
+}
+
+#texto-inicial1
+{
+    font-family: 'Kaisei Opti', serif;
+    position: relative;
+    font-size: 400%;
+    left: 10%;
+}
+
+#texto-inicial2
+{
+    font-family: 'Kaisei Opti', serif;
+    font-size: 200%;
+    position: relative;
+    left: 15%;
+    top: -3%;
+}
+
+#introducao
+{
+    position: relative;
+    height: 55%;
+    width: 100%;
+    left: 2%;
+}
+
+#img-introducao
+{
+    width: 700px;
+    height: 500px;
+    border-radius: 25px;
+    position: absolute;
+    left: 2%;
+}
+
+#texto-introducao
+{
+    font-family: 'Expletus Sans', cursive;
+    font-size: 25px;
+    position: relative;
+    top: 6%;
+    left: 42%;
+}
+
+#energias-renovaveis
+{
+    position: relative;
+    width: 100%;
+    height: 28%;
+    top: 5%;
+}
+
+#fontes-renovaveis2
+{
+    color: #07FF02;
+}
+
+.titulo-fontesRenovaveis
+{
+    font-family: 'Nova Round', cursive;
+    font-size: 50px;
+    position: relative;
+    left: 10%;
+}
+
+#texto-fontesRenovaveis
+{
+    font-family: 'Expletus Sans', cursive;
+    font-size: 25px;
+    position: relative;
+    left: 16%;
+}
+
+#energia-solar
+{
+    position: relative;
+    width: 100%;
+    height: 82%;
+    top: 10%;
+    left: 5%;
+}
+
+#titulo-solar
+{
+    font-size: 50px;
+    font-family: 'Nova Round', cursive;
+    position: relative;
+    left: 3%;
+}
+
+#texto-solar
+{
+    font-family: 'Expletus Sans', cursive;
+    font-size: 25px;
+    position: relative;
+    left: 3%;
+}
+
+#img-solar
+{
+    position:absolute;
+    width: 640px;
+    height: 750px;
+    border-radius: 25px;
+    top:5%;
+    left: 50%;
+}
+
+#energia-hidreletrica
+{
+    position: relative;
+    width: 100%;
+    height: 68%;
+    top:15%;
+}
+
+#titulo-hidreletrica
+{
+    font-size: 50px;
+    font-family: 'Nova Round', cursive;
+    position: relative;
+    left: 3%;
+}
+
+#texto-hidreletrica
+{
+    font-family: 'Expletus Sans', cursive;
+    font-size: 25px;
+    position: relative;
+    left: 3%;
+}
+
+#energia-hidreletrica-textos
+{
+    position: relative;
+    left: 52%;
+}
+
+#img-hidreletrica
+{
+    position: absolute;
+    width: 750px;
+    height: 650px;
+    border-radius: 25px;
+    top: 0%;
+    left: 7%;
+}
+
+#energia-biomassa
+{
+    position: relative;
+    width: 100%;
+    height: 78%;
+    top: 17%;
+}
+
+#titulo-biomassa
+{
+    font-size: 50px;
+    font-family: 'Nova Round', cursive;
+    position: relative;
+    left: 3%;
+}
+
+#energia-biomassa-textos
+{
+    position: relative;
+    left: 4%;
+}
+
+
+#texto-biomassa
+{
+    font-family: 'Expletus Sans', cursive;
+    font-size: 25px;
+    position: relative;
+    left: 3%; 
+}
+
+#img-biomassa
+{
+    position: absolute;
+    width: 700px;
+    height: 750px;
+    border-radius: 25px;
+    left: 55%;
+    top: 0;
+}
+
+#energia-mares
+{
+    position: relative;
+    width: 100%;
+    height: 53%;
+    top: 25%;
+}
+
+#energia-mares-textos
+{
+    position: relative;
+    left: 52%;
+}
+
+#titulo-energia-mares
+{
+    font-size: 55px;
+    font-family: 'Nova Round', cursive;
+    position: relative;
+    left: 3%;
+}
+
+#texto-energia-mares
+{
+    font-family: 'Expletus Sans', cursive;
+    font-size: 30px;
+    position: relative;
+    left: 3%;    
+}
+
+#img-mares
+{
+    position: absolute;
+    width: 720px;
+    height: 500px;
+    top:1%;
+    left: 7%;
+    border-radius: 25px;
+}
+
+#energias-nao-renovaveis
+{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    top: 35%;
+}
+
+.titulo-fontes-naoRenovaveis
+{
+    font-size: 50px;
+    position: relative;
+    left: 10%;
+    font-family: 'Nova Round', cursive;
+}
+
+#fontes-nao-renovaveis2
+{
+    color: #FF0000;
+}
+
+#texto-fontes-naoRenovaveis
+{
+    font-family: 'Expletus Sans', cursive;
+    font-size: 25px;
+    position: relative;
+    left: 16%; 
+}
+
+#combustiveis-fosseis
+{
+    position: relative;
+    width: 100%;
+    height: 93%;
+    top: 45%;
+}
+
+#combustiveis-fosseis-texto
+{
+    position: relative;
+    left: 4%;
+}
+
+#titulo-fosseis
+{
+    font-size: 50px;
+    font-family: 'Nova Round', cursive;
+    position: relative;
+    left: 3%;
+}
+
+#texto-fosseis
+{
+    font-family: 'Expletus Sans', cursive;
+    font-size: 25px;
+    position: relative;
+    left: 3%; 
+}
+
+#img-fosseis
+{
+    position: absolute;
+    width: 730px;
+    height: 882px;
+    border-radius: 25px;
+    left: 50%;
+    top: 0;
+}
+
+#energia-nuclear
+{
+    position: relative;
+    width: 100%;
+    height: 68%;
+    top: 45%;
+}
+
+#energia-nuclear-textos
+{
+    position: relative;
+    left: 47%;
+}
+
+#titulo-nuclear
+{
+    font-size: 50px;
+    font-family: 'Nova Round', cursive;
+    position: relative;
+    left: 3%;
+}
+
+#texto-nuclear
+{
+    font-family: 'Expletus Sans', cursive;
+    font-size: 25px;
+    position: relative;
+    left: 3%; 
+}
+
+#img-nuclear
+{
+    position: absolute;
+    width: 655px;
+    height: 630px;
+    top: 1%;
+    left: 6%;
+    border-radius: 25px;
+}
+
+#rodape
+{
+    position: relative;
+    background-color: black;
+    top: 50%;
+    width: 100%;
+    height: 10%;
+}
+
+.texto-rodape
+{
+    position: relative;
+    text-align: center;
+    top: 35%;
+    font-family: 'Nova Round', cursive;
+    color: white;
+}
+
+#link-rodape
+{
+    color:aliceblue;
+    text-decoration: underline;
+}
